@@ -12,7 +12,7 @@ function generateNumber(){
     document.getElementById("Numbers").textContent="";
 
     guessList = [];
-    
+
     scance = 5;
 }
 
@@ -125,3 +125,15 @@ function checkNumber(){
         }
     }
 }
+
+document.getElementById("numberInput").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        checkNumber();
+    }
+});
+
+addEventListener("keypress", function(event){
+    if(event.key === "g" || event.key === "G"){
+        generateNumber();
+    }
+});
