@@ -84,7 +84,7 @@ function checkNumber(){
             scance--;
 
             document.getElementById("resultText").innerHTML = "Too low, try again! <br> Remaining chances: " + scance;
-            document.getElementById("resultText").style.color = "blue";
+            document.getElementById("resultText").style.color = "lightblue"
 
             document.getElementById("numberInput").value ="";
         }
@@ -100,7 +100,7 @@ function checkNumber(){
             scance--;
 
             document.getElementById("resultText").innerHTML = "Too high, try again! <br> Remaining chances: " + scance;
-            document.getElementById("resultText").style.color = "blue";
+            document.getElementById("resultText").style.color = "lightblue";
 
             document.getElementById("numberInput").value ="";
         }
