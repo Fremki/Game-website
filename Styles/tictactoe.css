@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+header{
+    position: relative;
+
+    color: rgb(82,82,82);
+    text-align: center;
+    font-size: 24px;
+}
+
+.backhome{
+    position: absolute;
+
+    left: 20px;
+    top: 50%;
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
