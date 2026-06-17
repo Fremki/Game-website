@@ -26,7 +26,7 @@ function controlList(){
         const img = document.createElement("img");
 
         if(guessList[i].type == "low"){
-                img.src ="../photos/Maggiore.png";
+            img.src ="../photos/Maggiore.png";
         }
         else{
             img.src ="../photos/Minore.png";

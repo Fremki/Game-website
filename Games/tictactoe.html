@@ -14,6 +14,22 @@
             <h1>Tic-Tac-Toe</h1>
         </header>
 
-        <div 
+        <div class="game">
+            <button class="square" data-row="0" data-col="0" onclick="TypeSymbol(this)"></button>
+            <button class="square" data-row="0" data-col="1" onclick="TypeSymbol(this)"></button>
+            <button class="square" data-row="0" data-col="2" onclick="TypeSymbol(this)"></button>
+
+            <button class="square" data-row="1" data-col="0" onclick="TypeSymbol(this)"></button>
+            <button class="square" data-row="1" data-col="1" onclick="TypeSymbol(this)"></button>
+            <button class="square" data-row="1" data-col="2" onclick="TypeSymbol(this)"></button>
+
+            <button class="square" data-row="2" data-col="0" onclick="TypeSymbol(this)"></button>
+            <button class="square" data-row="2" data-col="1" onclick="TypeSymbol(this)"></button>
+            <button class="square" data-row="2" data-col="2" onclick="TypeSymbol(this)"></button>
+        </div>
+
+        <a id="res"></a>
+        
+        <script src="../Scripts/tictactoe.js"></script>
     </body>
 </html>
