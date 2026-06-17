@@ -26,14 +26,10 @@ function controlList(){
         const img = document.createElement("img");
 
         if(guessList[i].type == "low"){
-<<<<<<< HEAD
             img.src ="../photos/Maggiore.png";
-=======
-                img.src ="../Photos/Maggiore.png";
->>>>>>> 327ab34233804bc6d944f17104d4039343f46c34
         }
         else{
-            img.src ="../Photos/Minore.png";
+            img.src ="../photos/Minore.png";
         }
 
         img.width = 40;
